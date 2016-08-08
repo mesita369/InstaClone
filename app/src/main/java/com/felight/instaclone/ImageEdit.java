@@ -50,6 +50,7 @@ public class ImageEdit extends AppCompatActivity {
         }
 
     }
+    //capture method
     private void onCaptureImageResult(Intent data) {
         imageUri = data.getData();
         Bitmap thumbnail = (Bitmap) data.getExtras().get("data");
